@@ -21,6 +21,16 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
+    <!-- PixelOS Maintainer  -->
+    <Preference
+        android:key="PixelOS_maintainer"
+        android:title="@string/PixelOS_maintainer"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.PixelOSMaintainerPreferenceController"/>
+
+
+  
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
